@@ -11,7 +11,6 @@ The Lumera chain and SuperNode publish in their own repositories:
 |---|---|
 | sdk-go | Go SDK |
 | sdk-js | JavaScript/TypeScript SDK |
-| sdk-js-react | React components for sdk-js |
 | sdk-rs | Rust SDK |
 | rq-go | RaptorQ Go bindings |
 | rq-library | RaptorQ library (native, wasm, Rust) |

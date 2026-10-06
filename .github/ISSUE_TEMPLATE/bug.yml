@@ -8,7 +8,6 @@ body:
       options:
         - sdk-go
         - sdk-js
-        - sdk-js-react
         - sdk-rs
         - rq-go
         - rq-library
