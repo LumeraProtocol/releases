@@ -7,18 +7,44 @@ The Lumera chain and SuperNode publish in their own repositories:
 [lumera](https://github.com/LumeraProtocol/lumera/releases) and
 [supernode](https://github.com/LumeraProtocol/supernode/releases).
 
-| Product | What it is |
-|---|---|
-| sdk-go | Go SDK |
-| sdk-js | JavaScript/TypeScript SDK |
-| sdk-rs | Rust SDK |
-| rq-go | RaptorQ Go bindings |
-| rq-library | RaptorQ library (native, wasm, Rust) |
-| sn-api-server | SuperNode API server (self-hostable) |
-| lumescope | LumeScope |
+| Product | What it is | Releases |
+|---|---|---|
+| sdk-go | Go SDK | [sdk-go](https://github.com/LumeraProtocol/releases/releases?q=sdk-go) |
+| sdk-js | JavaScript/TypeScript SDK | [sdk-js](https://github.com/LumeraProtocol/releases/releases?q=sdk-js) |
+| sdk-rs | Rust SDK | [sdk-rs](https://github.com/LumeraProtocol/releases/releases?q=sdk-rs) |
+| rq-go | RaptorQ Go bindings | [rq-go](https://github.com/LumeraProtocol/releases/releases?q=rq-go) |
+| rq-library | RaptorQ library (native, wasm, Rust) | [rq-library](https://github.com/LumeraProtocol/releases/releases?q=rq-library) |
+| sn-api-server | SuperNode API server (self-hostable) | [sn-api-server](https://github.com/LumeraProtocol/releases/releases?q=sn-api-server) |
+| lumescope | LumeScope | [lumescope](https://github.com/LumeraProtocol/releases/releases?q=lumescope) |
 
-No release has been published here yet. Each product's install line is added
-here with its first release.
+## Install
+
+Products without a section here have no release yet; theirs is added with the
+first one.
+
+### rq-library
+
+- **Native libraries** (static and shared, with the C header `rq-library.h`):
+  `rq-library-v<version>-<os>-<arch>.tar.gz` on the
+  [rq-library releases](https://github.com/LumeraProtocol/releases/releases?q=rq-library),
+  for linux amd64/arm64 and macOS arm64/amd64.
+- **Browser (WASM):** `npm install rq-library-wasm`
+- **Rust:** `cargo add rq-library`
+
+### rq-go
+
+```bash
+go get lumera.build/rq-go@v0.3.0
+```
+
+From v0.3.0 the module path is `lumera.build/rq-go`; earlier versions were
+`github.com/LumeraProtocol/rq-go`.
+
+### sdk-rs
+
+```bash
+cargo add lumera-sdk-rs
+```
 
 ## Releases
 
